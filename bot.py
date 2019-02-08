@@ -35,4 +35,4 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == 'how long until shb':
         await client.send_message(message.channel,'https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1')
-client.run('NTQzNDExNzk2MDU3MzkxMTM0.Dz8UgA.NjGaMU1Bm0xo-e4Nw4cSLih6lRQ')
+client.run('NTQzNDExNzk2MDU3MzkxMTM0.Dz-n4A.2j1KT-Aaz4Fw7iTfWXLKHJplQWQ')
