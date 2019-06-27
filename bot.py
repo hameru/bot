@@ -33,6 +33,22 @@ async def on_message(message):
     if message.content.startswith('is Shb out'):
         randomlist = ["no","nope","not yet","This Long https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1"]
         await client.send_message(message.channel,(random.choice(randomlist)))
-    if message.content == 'how long until shb':
+    if message.content == 'How long until shb':
+        await client.send_message(message.channel,'https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1')
+	if message.content.startswith('Is shb out'):
+        randomlist = ["no","nope","not yet","This Long https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1"]
+        await client.send_message(message.channel,(random.choice(randomlist)))
+    if message.content.startswith('Is shadowbringers out'):
+        randomlist = ["no","nope","not yet","This Long https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1"]
+        await client.send_message(message.channel,(random.choice(randomlist)))
+
+    if message.content.startswith('Is Shadowbringers out'):
+        randomlist = ["no","nope","not yet","This Long https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1"]
+        await client.send_message(message.channel,(random.choice(randomlist)))
+    if message.content.startswith('Is Shb out'):
+        randomlist = ["no","nope","not yet","This Long https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1"]
+        await client.send_message(message.channel,(random.choice(randomlist)))
+    if message.content == 'How long until shb':
         await client.send_message(message.channel,'https://www.timeanddate.com/countdown/launch?p0=137&iso=20190628T0012&year=2019&month=6&day=28&hour=0&min=12&sec=0&msg=Shadowbringers&ud=1&csz=1')
 client.run('NTQzNDExNzk2MDU3MzkxMTM0.Dz-n4A.2j1KT-Aaz4Fw7iTfWXLKHJplQWQ')
+
